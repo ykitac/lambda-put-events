@@ -1,0 +1,27 @@
+{
+  "tableOfEvents": {
+    "name": "Events",
+    "hashKey": {
+      "name": "EventId",
+      "type": "S"
+    },
+    "rangeKey": {
+      "name": "",
+      "type": ""
+    },
+    "region": "ap-northeast-1"
+  },
+  "tableOfIndex": {
+    "name": "EventsIndex",
+    "hashKey": {
+      "name": "CustomerId",
+      "type": "S"
+    },
+    "rangeKey": {
+      "name": "time",
+      "type": "S"
+    },
+    "region": "ap-northeast-1"
+  },
+  "apiAuthToken": ""
+}

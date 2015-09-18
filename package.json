@@ -1,0 +1,13 @@
+{
+  "name": "put-events",
+  "version": "0.0.0",
+  "description": "A AWS Lambda function that puts kinesis records to DynamoDB tables.",
+  "main": "put-events.js",
+  "dependencies": {
+    "aws-sdk":"latest"
+  },
+  "scripts": {
+    "test": "node ./scripts/driver.js",
+    "build": "node ./scripts/build.js"
+  }
+}
